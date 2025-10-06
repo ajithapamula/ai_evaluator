@@ -3,7 +3,7 @@
 
 ✅ Why this is better:
 - Looks **structured and modern**.  
-- GitHub automatically renders Mermaid (no need for external tools).  
+- GitHub automatically renders Mermaid (no need for external t ools).  
 - Easier to understand flow: client → FastAPI → agents → judge → results.  
 
 ---
