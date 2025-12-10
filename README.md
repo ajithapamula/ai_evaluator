@@ -1,10 +1,11 @@
+```
 ## 🚀 Autonomous Hackathon Judge
-
+```
 Multi-Agent Hackathon Scoring System powered by FastAPI, LangChain, and Model Context Protocol (MCP).
 Judges GitHub repos, README pitches, and design heuristics, then aggregates into final scores with actionable feedback.
-
+```
 ## 📌 Features
-
+```
 Multi-Agent Architecture
 
 Code Agent → static analysis (docs, tests, CI/CD, structure).
