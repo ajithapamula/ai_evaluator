@@ -1,4 +1,3 @@
-```
 ## 🚀 Autonomous Hackathon Judge
 ```
 Multi-Agent Hackathon Scoring System powered by FastAPI, LangChain, and Model Context Protocol (MCP).
@@ -39,11 +38,11 @@ Optional Frontend
 React/Vite UI (served via FastAPI static mount at /static).
 
 Visual dashboards for scores, verdicts, and repo profiles.
-
-## 🏗 Architecture
-
-flowchart TD
 ```
+## 🏗 Architecture
+```
+flowchart TD
+
   A["Client / UI\nReact / API / cURL"] --> B["FastAPI\napp/main.py"]
 
   B --> C1["Code Agent\nHeuristics: docs/tests/CI/license/structure"]
@@ -55,10 +54,7 @@ flowchart TD
   C3 --> D
 
   D --> E["Final Score + Verdict\nJSON + UI Dashboard"]
-
-
 ```
-
 ## ⚡️ Quickstart
 ```
 1. Clone repo
@@ -150,10 +146,11 @@ pytest
 Submit PR with clear description.
 ```
 # Hackathon Judge
-
+```
 Here is a preview of the app:
 
 ![App Screenshot](assets/screenshot.png)
-
+```
 # Hackathon Judge
+```
 Analyze a repo’s code, design, and pitch. Deterministic scoring + LLM feedback.
