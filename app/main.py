@@ -4,7 +4,7 @@ from typing import Optional, Literal, Dict, Any
 
 # --- load .env BEFORE importing anything that reads env vars ---
 from dotenv import load_dotenv
-load_dotenv()  # ensures OPENAI_API_KEY, GITHUB_TOKEN, etc. are available
+load_dotenv()  # ensures OPENAI_API_KEY, GITHUB_TOKEN, etc. are available .
 
 from fastapi import FastAPI, HTTPException, Request
 from fastapi.exceptions import RequestValidationError
